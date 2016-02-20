@@ -69,13 +69,17 @@ button {
     padding: 0.5em 2em;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    background: #e93054;
+    background: #000000;
     border: 2.5px solid #fff;
     color: #fff;
     font-size: 16px;
     letter-spacing: 2px;
-    margin: 6em 5em auto;
+    margin: 3em 5em auto;
     position: relative;
     text-transform: uppercase;
     text-align: center;
+}
+
+button:hover { 
+    background-color: #fba831;
 }
