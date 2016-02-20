@@ -1,0 +1,81 @@
+
+/** css tricks fullscreen background **/
+html {
+	background: url(../images/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  	margin: 0 auto;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container {
+font-family: 'Timmana', sans-serif;
+margin: 0 auto;
+
+}
+.text{
+    color:white;
+font-size: 20px;
+font-weight: lighter;
+vertical-align: middle;
+margin-top: -25px;
+text-shadow: 2px 2px 2px #000000;
+
+}
+
+/** no me permite subirlo mas **/
+.main h1 {
+color:white;
+text-shadow: 2px 2px 2px #000000;
+font-size: 110px;
+font-weight: bolder;
+vertical-align: middle;
+text-transform: uppercase;
+padding-top: -20px;
+letter-spacing: 10px;
+}
+
+.main h2 {
+color:white;
+font-size: 32px;
+font-weight: lighter;
+vertical-align: middle;
+letter-spacing: 10px;
+text-transform: uppercase;
+margin-top: -120px;
+text-shadow: 2px 2px 2px #000000;
+
+}
+
+.buttons {
+	text-align: center;
+	margin:0 auto;
+	padding-top: 280px;
+}
+
+/** forma del boton con los ems **/
+
+
+button {
+    display: inline-block;
+    padding: 0.5em 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background: #e93054;
+    border: 2.5px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 6em 5em auto;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+}
