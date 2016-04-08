@@ -1,0 +1,28 @@
+html { 
+  background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+#myform {
+
+	margin-top: 200px;
+	width: 250px ;
+  margin-left: 850px ;
+  margin-right: auto ;
+  line-height: 30px;
+  z-index: 1
+
+}
+
+#header {
+
+margin-top: -10px;
+z-index: 0
+
+}
+
