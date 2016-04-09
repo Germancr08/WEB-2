@@ -1,4 +1,6 @@
-html { 
+
+
+body, html { 
   background: url(../images/bg.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -6,15 +8,16 @@ html {
   background-size: cover;
   color: white;
   font-family: 'Lato', sans-serif;
+  letter-spacing: 0.5px;
 }
 
 #myform {
 
-	margin-top: 200px;
+	margin-top: 150px;
 	width: 250px ;
   margin-left: 850px ;
   margin-right: auto ;
-  line-height: 30px;
+  line-height: 28px;
   z-index: 1
 
 }
@@ -26,3 +29,17 @@ z-index: 0
 
 }
 
+.send {
+
+background: white;
+color:black;
+padding-top: 6px;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 6px;
+border-radius: 5px;
+text-transform: uppercase;
+font-family: 'Lato', sans-serif;
+
+
+}
